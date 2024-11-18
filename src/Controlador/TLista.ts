@@ -1,9 +1,16 @@
 import { Heroes } from "../Entidades/Heroe";
-
+/*
 export let ListaHeroes: Heroes[] = [
     new Heroes(1, "Batman", 40, "Gótica", "/src/Imagenes/batman.jpg"),
     new Heroes(2, "Spiderman", 20, "New York", "/src/Imagenes/spiderman.png"),
     new Heroes(3, "Superman", 35, "Metropolis", "/src/Imagenes/superman.jpg"),
+];
+*/
+
+export let ListaHeroes: Heroes[] = [
+    new Heroes(1, "Batman", 40, "Gótica", "https://raw.githubusercontent.com/jgarzon97/heroes-ts/refs/heads/main/src/Imagenes/batman.jpg"),
+    new Heroes(2, "Spiderman", 20, "New York", "https://raw.githubusercontent.com/jgarzon97/heroes-ts/refs/heads/main/src/Imagenes/spiderman.png"),
+    new Heroes(3, "Superman", 35, "Metropolis", "https://raw.githubusercontent.com/jgarzon97/heroes-ts/refs/heads/main/src/Imagenes/superman.jpg"),
 ];
 
 export const globals = {
